@@ -2,9 +2,9 @@
  * tesla-battery.service.ts
  */
 
- import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
 
- @Injectable()
+@Injectable()
 export class BatteryService {
   constructor() {}
   getModelData(): Object {
